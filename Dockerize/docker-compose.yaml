@@ -31,7 +31,7 @@ services:
       start_period: 30s
   
   ecommerce-frontend:
-    image: murugesh1996/angular-ecommerce
+    image: murugesh1996/angular-ecommerce:0.0.2-SNAPSHOT
     ports:
       - "4200:80"
       - "49153:49153"
